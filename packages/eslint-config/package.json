@@ -1,0 +1,56 @@
+{
+  "name": "@hankandre/eslint-config",
+  "version": "0.0.0",
+  "description": "Hank Andre's personal ESLint rules",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "hankandre",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Hank Andre <hank.andre@hey.com>",
+  "homepage": "https://github.com/hankandre/configs#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankandre/configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/hankandre/configs/issues"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.31.0",
+    "@testing-library/jest-dom": "^5.12.0",
+    "eslint": "^7.26.0",
+    "eslint-find-rules": "^3.6.1",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "pretty-quick": "^3.1.0",
+    "react": "^17.0.2",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.5.0",
+    "typescript": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": "^12.0.0 || ^14.0.0",
+    "npm": ">=7",
+    "yarn": ">=1"
+  }
+}
